@@ -1,0 +1,34 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "src": "src/pages/Home.tsx"
+    },
+    {
+      "path": "/internships",
+      "src": "src/pages/Internships.tsx"
+    },
+    {
+      "path": "/startup",
+      "src": "src/pages/Startup.tsx"
+    },
+    {
+      "path": "/campus",
+      "src": "src/pages/Campus.tsx"
+    }
+  ],
+  "components": [
+    {
+      "name": "Layout",
+      "src": "src/components/Layout.tsx"
+    },
+    {
+      "name": "Navbar",
+      "src": "src/components/Navbar.tsx"
+    },
+    {
+      "name": "ScribbleBg",
+      "src": "src/components/ScribbleBg.tsx"
+    }
+  ]
+}
