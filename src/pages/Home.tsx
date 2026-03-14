@@ -84,7 +84,7 @@ const Home: React.FC = () => {
         
         {/* 卡片 1: 简历PDF（点击即可下载 PDF 文件） */}
         <a
-          href="./李奕羡——AI产品经理.pdf"
+          href="./李奕羡-AI产品经理.pdf"
           download
           className="group relative bg-[rgb(255,0,255)] border-[6px] border-[rgb(0,0,0)] p-8 shadow-custom hand-drawn animate-float hover:scale-105 transition-all text-left flex flex-col justify-between overflow-hidden"
           style={{ "--shadow-x": "12px", "--shadow-y": "12px", "--tw-rotate": "-3deg", animationDelay: "0s" } as React.CSSProperties}
