@@ -77,6 +77,7 @@ export default defineConfig({
       enableBuild: true,
     }),
   ],
+  base: '/gh-pages/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
